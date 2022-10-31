@@ -1,1 +1,2 @@
-"# Py-SGraphics" 
+"Py-SGraphics" 
+"Graphics engine for Python" 
