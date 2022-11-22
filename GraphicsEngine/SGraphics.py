@@ -74,7 +74,7 @@ class SGraphics:
             self.background = pygame.transform.scale(pygame.image.load(backgroundPath),(900,500))
         else:
             fake = pygame.Surface((900,500))
-            fake.fill(self.randomcolor)
+            fake.fill((0,0,0))
             self.background = pygame.transform.scale(fake,(900,500))
 
     def render(self):
